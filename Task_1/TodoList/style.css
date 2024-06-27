@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+h1 {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+#txt {
+  padding: 10px;
+  background-color: burlywood;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 77%;
+}
+
+#addbtn {
+  padding: 10px;
+  background-color: rgba(19, 218, 19, 0.842);
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -4px;
+}
+
+.box {
+  width: 80%;
+}
+
+#addbtn:hover {
+  background-color: #ddd;
+  color: #333;
+  border: 1px solid #aaa;
+  font-weight: bold;
+}
+
+#addbtn:active {
+  background-color: #bbbbbb5b;
+  color: #000;
+}
+
+li {
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  width: 66%;
+}
+
+.Con {
+  display: flex;
+  width: 350px;
+}
+
+.delete {
+  background-color: rgba(233, 25, 25, 0.671);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.delete:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid blue;
+}
