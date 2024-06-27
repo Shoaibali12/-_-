@@ -45,3 +45,14 @@ body {
   background-color: chartreuse;
   cursor: pointer;
 }
+#btn:hover {
+  background-color: #ddd;
+  color: #333;
+  border: 1px solid #aaa;
+  font-weight: bold;
+}
+
+#btn:active {
+  background-color: #bbb;
+  color: #000;
+}
