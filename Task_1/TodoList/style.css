@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: #aaa;
 }
 
 .container {
@@ -8,6 +9,8 @@ body {
   flex-direction: column;
   align-items: center;
   width: 40%;
+  background-color: darkkhaki;
+  height: 630px;
 }
 h1 {
   background-color: cadetblue;
@@ -55,7 +58,7 @@ h1 {
 li {
   font-size: large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   width: 66%;
 }
 
@@ -76,4 +79,21 @@ li {
   background-color: black;
   color: white;
   border: 1px solid blue;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.pend {
+  background-color: yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+.pend:hover {
+  background-color: greenyellow;
+  color: white;
 }
